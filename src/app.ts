@@ -32,7 +32,7 @@ async function startServer() {
       gracefulShutdown({
         signal: signals[i],
         server,
-      })
+      }),
     );
   }
 }

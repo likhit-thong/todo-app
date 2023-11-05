@@ -3,7 +3,7 @@ import { Type, Static } from '@sinclair/typebox';
 
 const schema = Type.Object({
   PORT: Type.Number({
-    default: 4000,
+    default: 3000,
   }),
   HOST: Type.String({
     default: '0.0.0.0',
