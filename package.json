@@ -1,0 +1,31 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/app.ts"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.12.0",
+    "@fastify/type-provider-json-schema-to-ts": "^2.2.2",
+    "@sinclair/typebox": "^0.31.22",
+    "@typegoose/typegoose": "^11.7.0",
+    "env-schema": "^5.2.1",
+    "fastify": "^4.24.3",
+    "mongoose": "^8.0.0",
+    "nanoid": "3.3.4",
+    "pino": "^8.16.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@types/node": "^20.8.10",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
