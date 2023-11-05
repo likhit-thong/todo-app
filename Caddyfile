@@ -1,4 +1,4 @@
-todo.likhitstech.com {
+todo.likhitdoestech.com {
   reverse_proxy todo-app:3000 {
     header_down Strict-Transport-Security max-age=31536000;
   }
